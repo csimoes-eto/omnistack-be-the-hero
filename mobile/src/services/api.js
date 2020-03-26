@@ -1,7 +1,10 @@
 import axios from 'axios';
 
+
+// CHANGE baseURl
+
 const api = axios.create({
-    baseURL: 'http://192.168.1.176:3333'
+    baseURL: '<insert_ip>:3333'
 });
 
 export default api; 
